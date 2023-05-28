@@ -27,23 +27,23 @@ class _CreateAccountState extends State<CreateAccount> {
           style: TextStyle(fontSize: fontSize),
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.deepOrange,
-        iconSize: fontSize + 6,
-        unselectedFontSize: fontSize - 3,
-        selectedFontSize: fontSize - 3,
-        currentIndex: 0,
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: "Login",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: "Home",
-          ),
-        ],
-      ),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   selectedItemColor: Colors.deepOrange,
+      //   iconSize: fontSize + 6,
+      //   unselectedFontSize: fontSize - 3,
+      //   selectedFontSize: fontSize - 3,
+      //   currentIndex: 0,
+      //   items: const [
+      //     BottomNavigationBarItem(
+      //       icon: Icon(Icons.login),
+      //       label: "Login",
+      //     ),
+      //     BottomNavigationBarItem(
+      //       icon: Icon(Icons.person),
+      //       label: "Register",
+      //     ),
+      //   ],
+      // ),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 15),

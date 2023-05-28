@@ -14,10 +14,9 @@ class _MainPageState extends State<MainPage> {
 
   @override
   Widget build(BuildContext context) {
-    final user = ModalRoute.of(context)!.settings.arguments! as String;
     return Scaffold(
       appBar: AppBar(
-        title: Text('Main Page, $user'),
+        title: const Text('Main Page'),
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,

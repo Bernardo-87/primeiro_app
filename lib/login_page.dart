@@ -25,20 +25,20 @@ class _LoginPageState extends State<LoginPage> {
         ),
       ),
       drawer: const Drawer(),
-      bottomNavigationBar: BottomNavigationBar(
-        selectedItemColor: Colors.amber[700],
-        currentIndex: 0,
-        items: const [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.login),
-            label: "Login",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: "Home",
-          ),
-        ],
-      ),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   selectedItemColor: Colors.amber[700],
+      //   currentIndex: 0,
+      //   items: const [
+      //     BottomNavigationBarItem(
+      //       icon: Icon(Icons.login),
+      //       label: "Login",
+      //     ),
+      //     BottomNavigationBarItem(
+      //       icon: Icon(Icons.person),
+      //       label: "Register",
+      //     ),
+      //   ],
+      // ),
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
