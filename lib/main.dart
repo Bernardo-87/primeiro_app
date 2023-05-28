@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
+import 'register_page.dart';
+import 'home_page.dart';
 import 'login_page.dart';
 
-void main() => runApp(const HomePage());
 
-class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+void main() => runApp(const Start());
+
+class Start extends StatelessWidget {
+  const Start({Key? key}) : super(key: key);
+
 
   @override
   Widget build(BuildContext context) {
@@ -13,8 +17,12 @@ class HomePage extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
-      home: const LoginPage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const LoginPage(),
+        '/home': (context) => HomePage(),
+        '/register': (context) => const CreateAccount(),
+      },
     );
   }
 }
-

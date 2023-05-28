@@ -19,7 +19,6 @@ class _EntradaCheckBoxState extends State<EntradaCheckBox> {
         setState(() {
           _valor = valor;
         });
-        print(valor.toString());
       },
     );
   }
