@@ -154,7 +154,7 @@ class _LoginPageState extends State<LoginPage> {
 
   login(){
     if (_emailController.text == 'eu@gmail.com' && _passwordController.text == '1234') {
-      Navigator.pushNamed(context, '/home', arguments: nome);
+      Navigator.pushNamed(context, '/main', arguments: nome);
     } else {
       showDialog(
         context: context,

@@ -9,10 +9,12 @@ class HomePage extends StatelessWidget {
   @override
 
   Widget build(BuildContext context) {
-    final nome = ModalRoute.of(context)!.settings.arguments! as String;
+//------------------------------------------------------------------------------
+    final user = ModalRoute.of(context)!.settings.arguments! as String;
+//------------------------------------------------------------------------------
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bem vindo, $nome'),
+        title: Text('Bem vindo, $user'),
       ),
       body: ListView.builder(
         itemCount: itemList.length,
