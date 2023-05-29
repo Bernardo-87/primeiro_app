@@ -86,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
                     },
                     child: Icon(
                       _obscureText ? Icons.visibility_off : Icons.visibility,
-                      color: Colors.white,
+                      color: Colors.black54,
                     ),
                   ),
                   border: const OutlineInputBorder(),
