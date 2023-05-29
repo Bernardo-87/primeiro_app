@@ -32,7 +32,7 @@ class AboutPage extends StatelessWidget {
                                   onPressed: () {
                                     Navigator.pop(context);
                                   },
-                                  child: const Text('-------------------------', style: TextStyle(color: Colors.white12),),
+                                  child: const Text('---------------------------', style: TextStyle(color: Colors.white12),),
                                 ),
                                 TextButton(
                                   onPressed: () {
@@ -44,7 +44,7 @@ class AboutPage extends StatelessWidget {
                                   onPressed: () {
                                     Navigator.pop(context);
                                   },
-                                  child: const Text('-------------------------', style: TextStyle(color: Colors.white12),),
+                                  child: const Text('---------------------------', style: TextStyle(color: Colors.white12),),
                                 ),
                                 TextButton(
                                   onPressed: () {
