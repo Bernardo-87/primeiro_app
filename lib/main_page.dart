@@ -15,9 +15,9 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Main Page'),
-      ),
+      // appBar: AppBar(
+      //   title: const Text('Main Page'),
+      // ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         items: const <BottomNavigationBarItem>[
